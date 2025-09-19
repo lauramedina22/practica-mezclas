@@ -30,4 +30,5 @@ if operacion == "multiplicacion":
     resultado = num1 * num2
 elif operacion == "division":
     resultado = num1 / num2
-    
+
+print("Resultado " + operacion + " " + resultado)
