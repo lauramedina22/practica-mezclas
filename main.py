@@ -15,5 +15,12 @@ else:
     
 print("Bienvenido a la calculadora :)")
     
-    
-
+print("CALCULADORA")
+operacion = input("Elige una operacion (suma, resta, multiplicacion, division): ")
+num1 = float(input("Ingresa el primer numero: "))
+num2 = float(input("Ingresa el segundo numero: "))
+resultado = 0
+if operacion == "suma":
+    resultado = num1 + num2
+elif operacion == "resta":
+    resultado = num1 - num2
