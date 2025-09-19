@@ -12,3 +12,13 @@ if num1 < num2:
     print("num1 es menor que num2")
 else:
     print("num1 no es menor que num2")
+
+print("CALCULADORA")
+operacion = input("Elige una operacion (suma, resta, multiplicacion, division): ")
+num1 = float(input("Ingresa el primer numero: "))
+num2 = float(input("Ingresa el segundo numero: "))
+resultado = 0
+if operacion == "suma":
+    resultado = num1 + num2
+elif operacion == "resta":
+    resultado = num1 - num2
