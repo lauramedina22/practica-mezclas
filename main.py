@@ -24,3 +24,10 @@ if operacion == "suma":
     resultado = num1 + num2
 elif operacion == "resta":
     resultado = num1 - num2
+
+
+if operacion == "multiplicacion":
+    resultado = num1 * num2
+elif operacion == "division":
+    resultado = num1 / num2
+    
