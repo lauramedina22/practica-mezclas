@@ -24,3 +24,10 @@ if operacion == "suma":
     resultado = num1 + num2
 elif operacion == "resta":
     resultado = num1 - num2
+elif operacion == "multiplicacion":
+    resultado = num1 * num2
+elif operacion == "division":
+    if num2 != 0:
+        resultado = num1 / num2
+    else:
+        print("Error: No se puede dividir entre cero.")
